@@ -48,7 +48,7 @@ export function NoteUI() {
                     required
                   />
                 </form>
-                <Button onClick={}>Save</Button>
+                <Button >Save</Button>
               </div>
             </div>
           </div>
@@ -58,10 +58,9 @@ export function NoteUI() {
   )
 }
 
-function send
 
 
-function PlusIcon(props) {
+function PlusIcon(props: any) {
   return (
     <svg
       {...props}
@@ -82,7 +81,7 @@ function PlusIcon(props) {
 }
 
 
-function TrashIcon(props) {
+function TrashIcon(props: any) {
   return (
     <svg
       {...props}
